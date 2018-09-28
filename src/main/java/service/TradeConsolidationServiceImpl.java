@@ -35,11 +35,12 @@ public class TradeConsolidationServiceImpl implements ITradeConsolidationService
 				aggregrate = new TradeAggregrates();
 			}
 			
-			if(trade.getTradeType().equals(Constants.TRADE_BUY))
+			if(trade.getTradeType().equals(Constants.TRADE_BUY)) {
 				aggregrate.setBuyGrossValue(aggregrate.getBuyGrossValue() + trade.getTradeTotalValue());
-			else
+			}
+			else {
 				aggregrate.setSellGrossValue(aggregrate.getSellGrossValue() + trade.getTradeTotalValue());
-			
+			}
 			mapAggregrate.put(trade.getSettleDate(), aggregrate);
 		}					
 		return mapAggregrate;

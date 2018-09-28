@@ -7,35 +7,35 @@ public class Trade {
 	/**
 	 * random generated tradeid
 	 */
-	private long tradeId;
+	private final long tradeId;
 	/**
 	 * tradeEntity
 	 */
-	private String tradeEntity;
+	private final String tradeEntity;
 	/**
 	 * instructDate
 	 */
-	private Date instructDate;
+	private final Date instructDate;
 	/**
 	 * intendedSettlementDate
 	 */
-	private Date intendedSettlementDate;
+	private final Date intendedSettlementDate;
 	/**
 	 * currency
 	 */
-	private String currency;
+	private final String currency;
 	/**
 	 * fxRate
 	 */
-	private float fxRate;
+	private final float fxRate;
 	/**
 	 * units
 	 */
-	private long units;
+	private final long units;
 	/**
 	 * tradeType
 	 */
-	private String tradeType;
+	private final String tradeType;
 	/**
 	 * unitPrice
 	 */
