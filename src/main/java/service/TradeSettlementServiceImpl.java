@@ -57,11 +57,7 @@ public class TradeSettlementServiceImpl implements ITradeSettlementService{
 			dayDjustment = (nonGulfCurrency) ? 3 : 2;			
 			break;
 		}
-		case 2 : {
-			dayDjustment = 2;			
-			break;
-		}
-		case 3 : {
+		case 2 : case 3 : {
 			dayDjustment = 2;			
 			break;
 		}
@@ -69,11 +65,7 @@ public class TradeSettlementServiceImpl implements ITradeSettlementService{
 			dayDjustment = (nonGulfCurrency) ? 2 : 4;	
 			break;
 		}
-		case 5 : {
-			dayDjustment =  4;	
-			break;
-		}
-		case 6 :  {
+		case 5 : case 6 : {
 			dayDjustment =  4;	
 			break;
 		}
